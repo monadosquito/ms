@@ -1,0 +1,21 @@
+.check-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-list__acc {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    accent-color: violet;
+    width: 15px;
+    height: 15px;
+    border: 2px solid violet;
+    outline: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.check-list__acc:checked {
+    background-color: crimson;
+}

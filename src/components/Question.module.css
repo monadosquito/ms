@@ -1,0 +1,29 @@
+.quest {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quest__text {
+    font-size: 1.2rem;
+}
+
+.quest__answer {
+    border: 2px solid violet;
+    border-radius: 10px;
+    padding: 10px;
+    outline: crimson;
+}
+
+.quest__btn {
+    background-color: crimson;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.quest__btn:hover {
+    color: violet;
+}

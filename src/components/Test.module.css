@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.test {
+    display: flex; 
+    flex-direction: column;
+    padding: 2% 10% 2%;
+    justify-content: space-between;
+}
+
+.test__timer {
+    width: 10%;
+}
+
+.test__quest {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.test__title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.test__reset-btn {
+    display: block;
+    background-color: crimson;
+    color: pink;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.test__reset-btn:hover {
+    color: violet;
+}
